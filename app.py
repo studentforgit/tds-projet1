@@ -79,6 +79,16 @@ def task_runner(task: str):
                 - **A8:** Extract the credit card number from `/data/credit-card.png` and write it (without spaces) to `/data/credit-card.txt`.
                 - **A9:** Find the most similar pair of comments in `/data/comments.txt` using embeddings and save them to `/data/comments-similar.txt`.
                 - **A10:** Compute the total sales for **Gold** ticket types from `/data/ticket-sales.db` and write the number to `/data/ticket-sales-gold.txt`.
+                - **B1:** Convert `/data/input.csv` to JSON and save as `/data/output.json`.
+                - **B2:** Rename all `.txt` files in `/data/rename/` by appending `_backup` before the extension.
+                - **B3:** Extract all unique email addresses from `/data/emails.log` and save them to `/data/emails-unique.txt`.
+                - **B4:** Find the top 10 most common words in `/data/words.txt` and save them to `/data/words-top10.txt`.
+                - **B5:** Replace all instances of `ERROR` with `WARNING` in `/data/logs/errors.log`, updating it in-place.
+                - **B6:** Resize all `.png` images in `/data/images/` to 256x256 and save them in `/data/images-resized/`.
+                - **B7:** Extract the text from `/data/document.pdf` and save it to `/data/document.txt`.
+                - **B8:** Find the largest file in `/data/files/` and write its name to `/data/largest-file.txt`.
+                - **B9:** Count the number of lines in each file in `/data/multifile/` and save the results to `/data/line-counts.txt`.
+                - **B10:** Extract and save metadata from `/data/music.mp3` to `/data/music-metadata.json`
             """}
         ],
         "tools": tools,
